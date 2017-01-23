@@ -1,0 +1,45 @@
+[2017-01-05 15:06:07,113][INFO ][node                     ] [Volstagg] version[1.4.2], pid[20284], build[927caff/2014-12-16T14:11:12Z]
+[2017-01-05 15:06:07,114][INFO ][node                     ] [Volstagg] initializing ...
+[2017-01-05 15:06:07,117][INFO ][plugins                  ] [Volstagg] loaded [], sites []
+[2017-01-05 15:06:10,131][INFO ][node                     ] [Volstagg] initialized
+[2017-01-05 15:06:10,131][INFO ][node                     ] [Volstagg] starting ...
+[2017-01-05 15:06:10,347][INFO ][transport                ] [Volstagg] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.0.101:9300]}
+[2017-01-05 15:06:10,489][INFO ][discovery                ] [Volstagg] elasticsearch/YtV2nYmMQs2U8dInh5YZfg
+[2017-01-05 15:06:14,255][INFO ][cluster.service          ] [Volstagg] new_master [Volstagg][YtV2nYmMQs2U8dInh5YZfg][Yoba-ПК][inet[/192.168.0.101:9300]], reason: zen-disco-join (elected_as_master)
+[2017-01-05 15:06:14,388][INFO ][http                     ] [Volstagg] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.0.101:9200]}
+[2017-01-05 15:06:14,388][INFO ][node                     ] [Volstagg] started
+[2017-01-05 15:06:14,657][INFO ][gateway                  ] [Volstagg] recovered [2] indices into cluster_state
+[2017-01-05 15:08:20,549][WARN ][http.netty               ] [Volstagg] Caught exception while handling client http traffic, closing connection [id: 0x08d1ae52, /0:0:0:0:0:0:0:1:60866 => /0:0:0:0:0:0:0:1:9200]
+java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2017-01-05 15:08:26,370][WARN ][http.netty               ] [Volstagg] Caught exception while handling client http traffic, closing connection [id: 0x5fd218bd, /0:0:0:0:0:0:0:1:60871 => /0:0:0:0:0:0:0:1:9200]
+java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)

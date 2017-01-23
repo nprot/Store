@@ -12,7 +12,7 @@ ElasticSearch 1.4.2 , NEST 1.4.2
 
 3)**StoreLib** is a folder that is storing a static library for using by Admin and Client. 
 
-4)**StoreLib.Test** is a folder that is storing Unit Test class for testing StoreLib. 
+4)**Store.Test** is a folder that is storing Unit Test class for testing StoreLib. 
 
 ###Installation and use
 Download and Install SetupAdmin.exe, SetupClient.exe. Also you should download ElasticSearch 1.4.2. Run bin/elasticsearch.bat from elasticsearch folder, then run admin.exe and client.exe from desktop.

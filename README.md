@@ -15,7 +15,7 @@ ElasticSearch 1.4.2 , NEST 1.4.2
 4)**Store.Tests** is a folder that is storing Unit Test class for testing StoreLib. 
 
 ###Installation and use
-Download and Install SetupAdmin.exe, SetupClient.exe. Also you should download ElasticSearch 1.4.2. Run bin/elasticsearch.bat from elasticsearch folder, then run admin.exe and client.exe from desktop.
+Download and Install SetupAdmin.msi, SetupClient.msi. Also you should download ElasticSearch 1.4.2. Run bin/elasticsearch.bat from elasticsearch folder, then run admin.exe and client.exe from desktop.
 
 ###License:
 

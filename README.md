@@ -1,5 +1,6 @@
 ##Store
 ###Short description:
+Realisation of simple store with owner and customer.
 
 ###Used libraries and frameworks:
 ElasticSearch 1.4.2 , NEST 1.4.2
